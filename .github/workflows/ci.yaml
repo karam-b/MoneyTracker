@@ -78,6 +78,8 @@ jobs:
       - name: 📥 Install dependencies
         uses: ./.github/actions/pnpm
 
+      - run: turbo --filter ui build
+
       - name: chromatic
         uses: chromaui/action@v1
         with:

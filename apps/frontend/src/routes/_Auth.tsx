@@ -38,7 +38,7 @@ export function Authentication() {
         <Routes>
           <Route path="/login" element={<LogIn />}></Route>
           <Route path="/register" element={<Register />}></Route>
-          <Route path="*" element={<Navigate to="./register" />}></Route>
+          <Route path="*" element={<Navigate to="./login" />}></Route>
         </Routes>
       </div>
     </div>
