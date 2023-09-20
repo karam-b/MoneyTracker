@@ -1,4 +1,3 @@
-# write a github action's workflow to run e2e test on every push
 name: main CI workflows
 
 on: push
